@@ -1,6 +1,9 @@
 name: Delete Spam Messages
 
 on:
+  schedule:
+  - cron: '0 0 * * *'
+  # This cron schedule runs the job at 12:00 am daily
   workflow_dispatch:
 
 jobs:
