@@ -10,7 +10,10 @@
 
 # Initial setup:
 
-# open terminal 
+# Open terminal 
+
+type: 
+
 `crontab -e`
 
 `0 0 * * * sudo python3 /Users/home/Scripts/Master_script.py`
