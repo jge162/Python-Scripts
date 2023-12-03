@@ -12,6 +12,7 @@
 
 # open terminal 
 `crontab -e`
+
 `0 0 * * * sudo python3 /Users/home/Scripts/Master_script.py`
 
 In nano, you can press `Ctrl + O` to save the file and then press Enter. To exit, press `Ctrl + X`.
