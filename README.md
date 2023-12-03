@@ -10,6 +10,19 @@
 
 # Initial setup:
 
+# open terminal 
+`crontab -e`
+`0 0 * * * sudo python3 /Users/home/Scripts/Master_script.py`
+
+In nano, you can press `Ctrl + O` to save the file and then press Enter. To exit, press `Ctrl + X`.
+
+In vim, you can type `:w` and press Enter to save the file, and then type `:q` and press Enter to exit.
+
+`crontab -l`
+
+Your Python script will now run daily at 12:00 AM as scheduled by the cron job. Make sure that the script has executable permissions, and it should work as expected. If your script requires root (sudo) privileges, you should ensure that it's safe to run with those privileges, as running scripts with elevated permissions can be risky.
+
+
 After downloading the repo, open the zip folder and use your
 prefered IDE. I personally used [PyCharm.](https://www.jetbrains.com/pycharm/download/#section=mac) 
 
